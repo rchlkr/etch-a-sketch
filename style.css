@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f2fcf5;
+}
+
+header {
+  font-family: 'Raleway Dots';
+  font-size: 77px;
+  text-align: center;
+  color: #1cd080;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  border: 2px solid #1cd080;
+  border-radius: 5px;
+  background-color: #1cd080;
+  color: #f2fcf5;
+  padding: 12px 28px;
+  text-align: center;
+  font-size: 18px;
+  opacity: 70%;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 2px solid #1cd080;
+  border-radius: 5px;
+  background-color: #f2fcf5;
+  color: #1cd080;
+}
+
+#container {
+  display: grid;
+  margin: 10px auto;
+  height: 400px;
+  width: 400px;
+}
+
+.cell {
+  height: 100%;
+  width: auto;
+  border: 1px solid #b5cdbe;
+}
